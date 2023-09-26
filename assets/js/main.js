@@ -66,6 +66,10 @@ let newSwiper = new Swiper(".new-swiper", {
     //         slidesPerView: 4,
     //     },
     // },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
 });
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
